@@ -1,0 +1,27 @@
+.link {
+    text-transform: none;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 24px;
+
+}
+
+.link:hover{
+    text-decoration-line: underline;
+}
+
+.link-about {
+    padding-left: 20px;
+}
+
+.link-accueil {
+    padding-left: 20px;
+}
+
+@media (max-width: 800px) {
+    .link {
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0em;
+    }
+}

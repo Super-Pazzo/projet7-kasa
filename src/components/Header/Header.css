@@ -1,0 +1,30 @@
+@media (min-width: 800px) {
+	.globalHeader {
+		display: flex;
+		align-items: center;
+		margin: 3%;
+		justify-content: space-between;
+	}
+	.logo {
+		height: 68px;
+		width: 210.32154846191406px;
+		left: 0px;
+		top: 0px;
+
+	}
+}
+
+@media (max-width: 800px) {
+	.globalHeader {
+		display: flex;
+		margin: 3%;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.logo {
+		height: 47px;
+		width: 145px;
+	}
+}
+

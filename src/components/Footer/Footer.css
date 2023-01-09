@@ -1,0 +1,25 @@
+.footer-global {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    width: 100%;
+    height: 209px;
+    justify-content: center;
+}
+
+.text-footer {
+    color: white;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-size: 24px;
+
+
+}
+
+.footer-img {
+    height: 39.444419860839844px;
+    width: 122px;
+    border-radius: 0px;
+
+}
