@@ -1,0 +1,61 @@
+.collapse {
+    background: #F7F7F7;
+    border-radius: 5px;
+    max-width: 1023px;
+    margin: auto;
+    
+
+}
+
+.collapse_bar {
+    background: #FF6060;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    height: 47px;
+}
+
+.collapse_bar h3 {
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+
+}
+
+.collapse_deploy {
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, height 0.5s 0.5s ease-in-out;
+}
+
+
+.animated {
+    opacity: 1;
+    transition: height 0.3s ease-in-out, opacity 0.3s 0.3s ease-in-out;
+}
+
+.collapse_deploy p {
+    padding: 22px 15px;
+    margin: 0;
+    pointer-events: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34.22px;
+
+}
+
+.arrow {
+    width: 15px;
+	transform: rotate(0deg);
+	transition: 0.4s 0.4s ease-in-out;
+
+}
+
+.rotate {
+    transform: rotate(180deg);
+	transition: 0.4s ease-in-out;
+}

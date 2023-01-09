@@ -2,7 +2,10 @@
 	.globalHeader {
 		display: flex;
 		align-items: center;
-		margin: 5%;
+		max-width: 1240px;
+		margin: auto;
+		margin-bottom: 63px;
+		margin-top: 40px;
 		justify-content: space-between;
 	}
 	.logo {

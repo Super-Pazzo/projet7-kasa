@@ -4,7 +4,8 @@
     flex-wrap: wrap;
     justify-content: center;
     border-radius: 25px;
-    margin: 5%;
+    max-width: 1240px;
+    margin: auto;
     position: relative;
 }
 
@@ -15,9 +16,4 @@
     }
 }
 
-@media (max-width: 800px) {
-    .cards-box {
-        
-        }
-    }
 

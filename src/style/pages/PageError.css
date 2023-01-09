@@ -1,0 +1,38 @@
+.GlobalError {
+    color: #FF6060;
+    text-align: center;
+
+}
+
+
+.codeError {
+    font-weight: 700;
+    font-size: 288px;
+    line-height: 142.6%;
+    align-items: center;
+    text-align: center;
+    color: #FF6060;
+}
+
+.textError {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 52px;
+    margin-top: -180px;
+    margin-bottom: 100px;
+}
+
+.pageError {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: none;
+    color: #FF6060;
+    line-height: 26px;
+
+}
+
+.pageError:hover {
+    text-decoration-line: underline;
+
+}

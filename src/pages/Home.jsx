@@ -5,6 +5,7 @@ import Logements from '../data/logements';
 import '../style/pages/Home.css'
 
 export default function Home () {
+  document.title = "Kasa - Accueil";
   return (
     <div>
       <Banner />
