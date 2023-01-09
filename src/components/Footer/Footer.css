@@ -10,7 +10,6 @@
 
 .text-footer {
     color: white;
-    font-size: 12px;
     font-family: Montserrat;
     font-size: 24px;
 
@@ -22,4 +21,11 @@
     width: 122px;
     border-radius: 0px;
 
+}
+
+@media (max-width: 800px) {
+    .text-footer{
+        font-size: 12px;
+    }
+    
 }

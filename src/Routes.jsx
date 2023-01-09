@@ -15,7 +15,7 @@ function App() {
           <Routes>
             <Route index element={<Home />} />
             <Route path="/home" element={<Home />} />
-            <Route path="/logement" element={<Logement />} />
+            <Route path="/logement/:id" element={<Logement />} />
             <Route path="/about" element={<About />} />
             {/*si le chemin ne correspond à aucune autres page ci dessus, alors il affichera une page d'erreur*/}
             <Route path="*" element={<Error />} />
