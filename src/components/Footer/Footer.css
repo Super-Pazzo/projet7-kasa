@@ -1,12 +1,13 @@
 .footer-global {
     display: flex;
+    position: absolute;
     flex-direction: column;
     align-items: center;
     background-color: #000;
     width: 100%;
     height: 209px;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 200px;
 }
 
 .text-footer {

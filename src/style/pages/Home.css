@@ -9,6 +9,11 @@
     position: relative;
 }
 
+@media (max-width : 1300px) {
+    .cards-box {
+      width: 90%;
+    }
+  }
 
 @media (min-width: 800px) {
 .cards-box {

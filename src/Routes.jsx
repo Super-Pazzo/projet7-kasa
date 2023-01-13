@@ -7,11 +7,11 @@ import About from "./pages/About";
 import Header from "./components/Header/Header"
 import Footer from "./components/Footer/Footer";
 
-
 function App() {
   return (
     <div>
       <Header />
+      <main>
           <Routes>
             <Route index element={<Home />} />
             <Route path="/home" element={<Home />} />
@@ -20,7 +20,10 @@ function App() {
             {/*si le chemin ne correspond à aucune autres page ci dessus, alors il affichera une page d'erreur*/}
             <Route path="*" element={<Error />} />
           </Routes>
-      <Footer />
+      </main>
+      <footer>
+          <Footer />
+      </footer>
     </div>
   );
 }

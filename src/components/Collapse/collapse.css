@@ -2,8 +2,8 @@
     background: #F7F7F7;
     border-radius: 5px;
     max-width: 1023px;
+
     margin: auto;
-    
 
 }
 
@@ -59,3 +59,34 @@
     transform: rotate(180deg);
 	transition: 0.4s ease-in-out;
 }
+@media (max-width : 1300px) {
+    .collapse {
+      width: 80%;
+    }
+    .collapse_bar h3 {
+        font-size: 18px;
+    }
+
+    .collapse_deploy p {
+        font-size: 18px;
+    }
+
+    .collapse_bar {
+        height: 37px;
+    }
+
+  }
+
+  @media (max-width : 800px) {
+    .collapse_bar h3 {
+        font-size: 13px;
+    }
+
+    .collapse_deploy p {
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .collapse_bar {
+        height: 30px;
+    }
+  }

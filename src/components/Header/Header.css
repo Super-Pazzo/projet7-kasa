@@ -17,6 +17,12 @@
 	}
 }
 
+@media (max-width : 1300px) {
+	.globalHeader{
+	  width: 90%;
+	}
+  }
+
 @media (max-width: 800px) {
 	.globalHeader {
 		display: flex;
