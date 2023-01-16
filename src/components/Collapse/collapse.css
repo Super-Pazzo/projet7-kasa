@@ -45,7 +45,15 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 34.22px;
+}
 
+.collapse_deploy ul {
+    list-style-type: none;
+    padding: 20px 20px;
+    pointer-events: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34.22px;
 }
 
 .arrow {
@@ -61,13 +69,17 @@
 }
 @media (max-width : 1300px) {
     .collapse {
-      width: 80%;
+      width: 90%;
+        
     }
     .collapse_bar h3 {
         font-size: 18px;
     }
 
     .collapse_deploy p {
+        font-size: 18px;
+    }
+    .collapse_deploy ul {
         font-size: 18px;
     }
 
@@ -86,6 +98,11 @@
         font-size: 12px;
         line-height: 17px;
     }
+    .collapse_deploy ul {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
     .collapse_bar {
         height: 30px;
     }

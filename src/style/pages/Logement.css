@@ -1,0 +1,122 @@
+.globalDesc {
+
+    width: 1240px;
+    margin: auto;
+    margin-bottom: 37px;
+}
+
+
+.globalTitle {
+    position: relative;
+
+}
+.logementTitle {
+    color: #FF6060;
+}
+
+.logementTitle h1{
+    font-size: 36px;
+    font-weight: 500;
+
+}
+
+.logementTitle h2{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+
+.hosting {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    line-height: 26px;
+}
+
+.hosting img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin-left: 10px;
+
+}
+
+.hosting p {
+    color: #FF6060;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: right;
+    width: 80px;
+}
+
+
+
+.allCollapse div {
+    flex-basis: calc(50% - 38px);
+}
+
+.allCollapse {
+    max-width: 1240px;
+    margin: auto;
+    justify-content: space-between;
+    width: 95%;
+}
+
+@media (min-width : 800px) {
+    .globalDesc {
+        display: flex;
+        justify-content:space-between;
+    }
+    .allCollapse {
+        display: flex;
+    }
+  }
+
+@media (max-width : 800px) {
+    .logementTitle h1{
+        font-size: 18px;
+    }
+    .globalInfo2 {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .hosting img {
+        width: 32px;
+        height: 32px;
+    
+    }
+    .collDesc{
+       margin-bottom: 25px;
+        
+    }
+    .allCollapse {
+        width: 100%;
+    }
+
+  }
+
+@media (max-width : 1300px) {
+    .globalDesc {
+        width: 90%;
+    }
+
+    .allCollapse div {
+        flex-basis: calc(50% - 15px);
+    }
+
+    .globalInfo1 {
+        width: 70%;
+    }
+    .logementTitle h1{
+        font-size: 24px;
+    
+    }
+    .StarsContainer {
+
+    }
+
+  }

@@ -1,5 +1,5 @@
 import React from "react";
-import Collapse from "../components/Collapse/collapse";
+import Collapse from "../components/Collapse/Collapse";
 import Data from "../data/about";
 import "../style/pages/about.css"
 import BannerAbout from "../components/bannerAbout/BannerAbout"

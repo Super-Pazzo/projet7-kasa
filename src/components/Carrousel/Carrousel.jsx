@@ -35,8 +35,6 @@ export default function Carrousel({images}) {
             <img src={leftArrow} onClick={()=>Prev()} className="ArrowImg leftArrow" alt="" />
             <p className="imagePos"> {allImages.findIndex(img => img === currentImage) +1} / {images.length} </p>
             <img src={rightArrow} onClick={()=>Next()} className="ArrowImg rightArrow" alt=""/>
-
-
         </div>
       )}
     </div>

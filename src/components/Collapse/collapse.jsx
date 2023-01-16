@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import Arrow from "../../assets/arrowDown.png"
-import "../Collapse/collapse.css"
+import "../Collapse/Collapse.css"
 
 export default function Collapse({ props, title }) {
     const [toggle, setToggle] = useState(false);

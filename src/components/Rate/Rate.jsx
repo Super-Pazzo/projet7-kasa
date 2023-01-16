@@ -1,6 +1,7 @@
 import React from "react";
 import Star from "../../assets/star.png";
 import StarEmpty from "../../assets/starEmpty.png";
+import "../Rate/Rate.css"
 
 export default function Rate ({Rates}) {
     const stars = [1, 2, 3, 4, 5];
