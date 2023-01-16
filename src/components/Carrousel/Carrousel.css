@@ -1,0 +1,67 @@
+.blocSlider {
+    position: relative;
+    display: flex;
+    width: 1240px;
+    height: 415px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.ArrowImg {
+    width: 47px;
+    height: 79px;
+    top: 175px;
+}
+
+.sliderImages {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.blocSlider p {
+    position: absolute;
+    color: white;
+    bottom: 20px;
+    left: 48%;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.leftArrow {
+    position: absolute;
+    left: 23px;
+
+}
+
+.rightArrow {
+    position: absolute;
+    right: 23px;
+}
+
+@media (max-width : 1300px) {
+    .blocSlider {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .blocSlider {
+        height: 255px;
+      }
+
+      .blocSlider p {
+        left: 45%;
+        display: none;
+    }
+
+    .ArrowImg {
+        width: 12px;
+        height: 20px;
+        top: 125px;
+
+    }
+
+  }

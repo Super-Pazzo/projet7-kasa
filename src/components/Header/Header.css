@@ -1,0 +1,39 @@
+@media (min-width: 800px) {
+	.globalHeader {
+		display: flex;
+		align-items: center;
+		max-width: 1240px;
+		margin: auto;
+		margin-bottom: 63px;
+		margin-top: 40px;
+		justify-content: space-between;
+	}
+	.logo {
+		height: 68px;
+		width: 210.32154846191406px;
+		left: 0px;
+		top: 0px;
+
+	}
+}
+
+@media (max-width : 1300px) {
+	.globalHeader{
+	  width: 90%;
+	}
+  }
+
+@media (max-width: 800px) {
+	.globalHeader {
+		display: flex;
+		margin: 5%;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.logo {
+		height: 47px;
+		width: 145px;
+	}
+}
+

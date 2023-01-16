@@ -1,0 +1,24 @@
+.cards-box {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 25px;
+    max-width: 1240px;
+    margin: auto;
+    position: relative;
+}
+
+@media (max-width : 1300px) {
+    .cards-box {
+      width: 90%;
+    }
+  }
+
+@media (min-width: 800px) {
+.cards-box {
+    background: #F7F7F7;
+    }
+}
+
+
