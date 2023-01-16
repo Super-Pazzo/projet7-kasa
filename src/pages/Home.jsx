@@ -1,6 +1,6 @@
 import React from 'react';
 import Banner from "../components/Banner/Banner";
-import Card from '../components/Cards/cards';
+import Card from '../components/Cards/Cards';
 import Logements from '../data/logements';
 import '../style/pages/Home.css'
 

@@ -11,3 +11,13 @@
 .main-color {
 	color: #ff6060;
 }
+
+
+.flex {
+	display: flex;
+}
+
+.width1 {
+	max-width: 1240px;
+	margin: auto;
+}

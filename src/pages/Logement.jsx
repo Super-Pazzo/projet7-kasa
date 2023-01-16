@@ -8,6 +8,7 @@ import Rating from "../components/Rate/Rate";
 import "../style/pages/Logement.css";
 
 const Logement = () => {
+  document.title = "Kasa - Logement";
   let logementdId = useParams();
   let logementImg;
   let logementDescription;
@@ -38,7 +39,7 @@ const Logement = () => {
       </div>
       <div className='globalDesc'>
         <div className='globalInfo1'>
-          <div className='logementTitle'>
+          <div className='logementTitle main-color' >
             <h1>{logementTitle}</h1>
             <h2>{logementLocation}</h2>
           </div>
@@ -48,7 +49,7 @@ const Logement = () => {
         </div>
         <div className='globalInfo2'>
           <div className='hosting'>
-            <p>{logementHost.name}</p>
+            <p className='main-color '>{logementHost.name}</p>
             <img src={logementHost.picture} alt="" className='profilImg' />
           </div>
           <div className='StarsContainer'>

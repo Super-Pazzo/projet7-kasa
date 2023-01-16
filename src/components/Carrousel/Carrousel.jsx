@@ -7,7 +7,8 @@ export default function Carrousel({images}) {
   const [allImages] = useState(images);
   const [currentImage, setCurrentImage] = useState(images[0]);
 
-
+  //récupère l'index de toutes les images et défini l'image sur laquel je suis à currentImage. 
+  //quand j'arrive à la dernière image, je reviens à la première du tableau
   const Next = () => {
     const currentIndex = allImages.findIndex(img => img === currentImage);
     if(currentIndex + 1 < allImages.length){
@@ -16,7 +17,8 @@ export default function Carrousel({images}) {
       setCurrentImage(allImages[0])
     }
   }
-
+//récupère l'index de toutes les images et défini l'image sur laquel je suis à currentImage. 
+  //quand j'arrive à la première image, je reviens à la dernière du tableau si je reviens en arrière
   const Prev = () => {
     const currentIndex = allImages.findIndex(img => img === currentImage);
     if(currentIndex - 1 >= 0){
